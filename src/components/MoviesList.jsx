@@ -7,7 +7,7 @@ function MoviesList({ data: { Search } }) {
     document.getElementById("my_modal_2").showModal();
   };
   return (
-    <ul className="grid md:grid-cols-2 lg:grid-cols-3  gap-5 mt-10">
+    <ul className="grid md:grid-cols-2 lg:grid-cols-3  gap-3 mt-10">
       {Search.map((move) => {
         return (
           <li onClick={showModal} key={move.imdbID}>
