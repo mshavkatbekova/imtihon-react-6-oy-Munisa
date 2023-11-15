@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .cite_container {
+    @apply max-w-7xl mx-auto py-10 px-4;
+  }
+  .error-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+   /* themes: */
+ 
+
+}
+
+
+ 
+  
+   
